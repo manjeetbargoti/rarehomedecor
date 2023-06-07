@@ -3,7 +3,9 @@
 namespace App\Http\Controllers\Site;
 
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Mail;
 use Illuminate\Http\Request;
+use \App\Mail\QueryEmail;
 use App\Enquiry;
 
 class EnquiryController extends Controller
@@ -27,6 +29,7 @@ class EnquiryController extends Controller
                 $query->page_url    = $request->page_url;
 
                 if($query->save()){
+                    Mail::to(get_setting('admin_email'))->send(new QueryEmail($query));
                     toastr()->success('Query submitted successfully!');
                     return redirect()->back();
                 }else{
@@ -60,6 +63,7 @@ class EnquiryController extends Controller
                 $query->page_url    = $request->page_url;
 
                 if($query->save()){
+                    Mail::to(get_setting('admin_email'))->send(new QueryEmail($query));
                     toastr()->success('Query submitted successfully!');
                     return redirect()->back();
                 }else{

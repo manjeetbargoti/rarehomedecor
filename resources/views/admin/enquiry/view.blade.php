@@ -55,7 +55,7 @@
                             </tr>
                             <tr>
                                 <th>Query Message</th>
-                                <td>{{ @$query->query }}</td>
+                                <td>{{ @$query->query_msg }}</td>
                             </tr>
                         </table>
                     </div>
