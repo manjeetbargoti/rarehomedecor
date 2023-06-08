@@ -45,6 +45,7 @@ Route::prefix('admin')->group(function () {
         Route::match(['get','post'], '/pages', 'PageController@index')->name('admin.page.list');
         Route::match(['get','post'], '/page/create', 'PageController@create')->name('admin.page.create');
         Route::match(['get','post'], '/page/{id}/edit', 'PageController@edit')->name('admin.page.edit');
+        Route::match(['get','post'], '/page/{id}/delete', 'PageController@delete')->name('admin.page.delete');
 
         // Enquiry Routes
         Route::match(['get','post'], '/product-enquiry', 'EnquiryController@productEnquiry')->name('admin.enquiry.product.list');

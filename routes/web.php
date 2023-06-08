@@ -19,6 +19,8 @@ Route::namespace('Site')->group(function () {
 
     // About us
     Route::match(['get','post'], '/about', 'HomeController@about')->name('site.about');
+    Route::match(['get','post'], '/terms', 'HomeController@terms')->name('site.terms');
+    Route::match(['get','post'], '/privacy', 'HomeController@privacy')->name('site.privacy');
 
     // Portfolio
     Route::match(['get','post'], '/categories', 'HomeController@category')->name('site.category');

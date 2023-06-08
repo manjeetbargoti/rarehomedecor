@@ -60,7 +60,7 @@
                                             href="{{ $banner->video_url }}">
                                             <span class="flaticon-play-button"></span>
                                         </a>
-                                        <a class="slide-style2-button" href="#">More About Us</a>
+                                        <a class="slide-style2-button" href="{{ route('site.about') }}">More About Us</a>
                                     </div>
                                 </div>
                             </div>
@@ -365,7 +365,7 @@
                         <div class="sec-title">
                             <div class="icon"><img src="{{ asset('assets/frontend/images/icon/home-1.png') }}"
                                     alt="Awesome Logo"></div>
-                            <div class="title">Why People <br>Choose <span>Crystalo</span></div>
+                            <div class="title">Why People <br>Choose <span>US</span></div>
                         </div>
                         <ul>
                             <li>Well Considered Design</li>

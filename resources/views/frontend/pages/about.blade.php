@@ -25,7 +25,7 @@
 <!--End breadcrumb area-->
 
 <!--Start Company Overview Area-->
-<section class="company-overview-area">
+{{-- <section class="company-overview-area">
     <div class="container">
         <div class="row">
             <div class="col-xl-12">
@@ -224,197 +224,21 @@
         </div>
 
     </div>
-</section>
+</section> --}}
 <!--End Company Overview Area-->
 
 
 <!--Start Team Area-->
-<section class="team-area">
+<section class="team-area py-5">
     <div class="container">
         <div class="row">
             <div class="col-xl-12">
-                <div class="sec-title float-left">
-                    <p>Behind Our Company</p>
-                    <div class="title">Expert & Experinced <span>Team</span></div>
-                </div>
-                <div class="view-all-member style2 float-right">
-                    <a class="btn-one" href="#">All Members<span class="flaticon-next"></span></a>
-                </div>
+                {!! $about->description !!}
             </div>
-        </div>
-        <div class="row">
-            <!--Start Single Team Member-->
-            <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
-                <div class="single-team-member">
-                    <div class="img-holder">
-                        <img src="{{ asset('assets/frontend/images/team/v2-1.jpg') }}" alt="Awesome Image">
-                        <ul class="sociallinks">
-                            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
-                        </ul>
-                        <div class="overlay">
-                            <div class="box">
-                                <div class="link">
-                                    <a class="btn-two" href="blog.html">View Profile<span class="flaticon-next"></span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="name text-center">
-                        <p><span>CEO & Founder</span></p>
-                        <h3>Alison Fletcher</h3>
-                    </div>
-                </div>
-            </div>
-            <!--End Single Team Member-->
-            <!--Start Single Team Member-->
-            <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
-                <div class="single-team-member">
-                    <div class="img-holder">
-                        <img src="{{ asset('assets/frontend/images/team/v2-2.jpg') }}" alt="Awesome Image">
-                        <ul class="sociallinks">
-                            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
-                        </ul>
-                        <div class="overlay">
-                            <div class="box">
-                                <div class="link">
-                                    <a class="btn-two" href="blog.html">View Profile<span class="flaticon-next"></span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="name text-center">
-                        <p><span>Designer</span></p>
-                        <h3>Joe Wilson</h3>
-                    </div>
-                </div>
-            </div>
-            <!--End Single Team Member-->
-            <!--Start Single Team Member-->
-            <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
-                <div class="single-team-member">
-                    <div class="img-holder">
-                        <img src="{{ asset('assets/frontend/images/team/v2-3.jpg') }}" alt="Awesome Image">
-                        <ul class="sociallinks">
-                            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
-                        </ul>
-                        <div class="overlay">
-                            <div class="box">
-                                <div class="link">
-                                    <a class="btn-two" href="blog.html">View Profile<span class="flaticon-next"></span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="name text-center">
-                        <p><span>Architect</span></p>
-                        <h3>White Grey</h3>
-                    </div>
-                </div>
-            </div>
-            <!--End Single Team Member-->
-            <!--Start Single Team Member-->
-            <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
-                <div class="single-team-member">
-                    <div class="img-holder">
-                        <img src="{{ asset('assets/frontend/images/team/v2-4.jpg') }}" alt="Awesome Image">
-                        <ul class="sociallinks">
-                            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
-                        </ul>
-                        <div class="overlay">
-                            <div class="box">
-                                <div class="link">
-                                    <a class="btn-two" href="blog.html">View Profile<span class="flaticon-next"></span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="name text-center">
-                        <p><span>Manager</span></p>
-                        <h3>Kevin Smith</h3>
-                    </div>
-                </div>
-            </div>
-            <!--End Single Team Member-->
         </div>
     </div>
 </section>
 <!--End Team Area-->
 
-<!--Start Brand area style2-->
-<section class="brand-area style2">
-    <div class="container">
-        <div class="row">
-            <div class="col-xl-12">
-                <ul>
-                    <!--Start Single Brand Item-->
-                    <li class="single-brand-item style2 wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-                        <a href="#"><img src="{{ asset('assets/frontend/images/brand/1.png') }}" alt="Awesome Brand Image"></a>
-                        <div class="overlay-content">
-                            <p>Miesian</p>
-                        </div>
-                    </li>
-                    <!--End Single Brand Item-->
-                    <!--Start Single Brand Item-->
-                    <li class="single-brand-item style2 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
-                        <a href="#"><img src="{{ asset('assets/frontend/images/brand/2.png') }}" alt="Awesome Brand Image"></a>
-                        <div class="overlay-content">
-                            <p>Miesian</p>
-                        </div>
-                    </li>
-                    <!--End Single Brand Item-->
-                    <!--Start Single Brand Item-->
-                    <li class="single-brand-item style2 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
-                        <a href="#"><img src="{{ asset('assets/frontend/images/brand/3.png') }}" alt="Awesome Brand Image"></a>
-                        <div class="overlay-content">
-                            <p>Miesian</p>
-                        </div>
-                    </li>
-                    <!--End Single Brand Item-->
-                    <!--Start Single Brand Item-->
-                    <li class="single-brand-item style2 wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
-                        <a href="#"><img src="{{ asset('assets/frontend/images/brand/4.png') }}" alt="Awesome Brand Image"></a>
-                        <div class="overlay-content">
-                            <p>Miesian</p>
-                        </div>
-                    </li>
-                    <!--End Single Brand Item-->
-                    <!--Start Single Brand Item-->
-                    <li class="single-brand-item style2 wow fadeInUp" data-wow-delay="800ms" data-wow-duration="1500ms">
-                        <a href="#"><img src="{{ asset('assets/frontend/images/brand/5.png') }}" alt="Awesome Brand Image"></a>
-                        <div class="overlay-content">
-                            <p>Miesian</p>
-                        </div>
-                    </li>
-                    <!--End Single Brand Item-->
-                    <!--Start Single Brand Item-->
-                    <li class="single-brand-item style2 wow fadeInUp" data-wow-delay="800ms" data-wow-duration="1500ms">
-                        <a href="#"><img src="{{ asset('assets/frontend/images/brand/6.png') }}" alt="Awesome Brand Image"></a>
-                        <div class="overlay-content">
-                            <p>Miesian</p>
-                        </div>
-                    </li>
-                    <!--End Single Brand Item-->
-                </ul>
-            </div>
-        </div>
-    </div>
-</section>
-<!--End Brand area style2-->
 
 @endsection

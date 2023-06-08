@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use App\Category;
 use App\Product;
 use App\Banner;
+use App\Page;
 
 class HomeController extends Controller
 {
@@ -21,7 +22,20 @@ class HomeController extends Controller
 
     // About us page
     public function about(){
-        return view('frontend.pages.about');
+        $about = Page::where(['slug'=>'about-us'])->first();
+        return view('frontend.pages.about', compact('about'));
+    }
+
+    // Terms page
+    public function terms(){
+        $terms = Page::where(['slug'=>'terms'])->first();
+        return view('frontend.pages.terms', compact('terms'));
+    }
+
+    // Privacy page
+    public function privacy(){
+        $privacy = Page::where(['slug'=>'privacy'])->first();
+        return view('frontend.pages.privacy', compact('privacy'));
     }
 
     // Portfolio page

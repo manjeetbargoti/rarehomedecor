@@ -39,8 +39,8 @@
                             <li><a href="{{ route('site.products') }}">Products</a></li>
                         </ul>
                         <ul class="float-left borders-left">
-                            <li><a href="#">Terms & Conditions</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="{{ route('site.terms') }}">Terms & Conditions</a></li>
+                            <li><a href="{{ route('site.privacy') }}">Privacy Policy</a></li>
                             <li><a href="{{ route('site.contact') }}">Contact Us</a></li>
                         </ul>
                     </div>

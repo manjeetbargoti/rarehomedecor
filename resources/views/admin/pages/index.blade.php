@@ -36,6 +36,7 @@
                                 </td>
                                 <td class="">
                                     <a class="text-warning" href="{{ route('admin.page.edit', $page->id) }}"><i class="fas fa-edit"></i></a>
+                                    <a class="text-danger" href="{{ route('admin.page.delete', $page->id) }}"><i class="fas fa-trash"></i></a>
                                 </td>
                             </tr>
                             @endforeach

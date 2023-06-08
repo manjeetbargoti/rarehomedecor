@@ -78,4 +78,13 @@ class PageController extends Controller
             return redirect()->back();
         }
     }
+
+    // Delete Page
+    public function delete(Request $request){
+        if(!empty($request->id)){
+            Page::where(['id' => $request->id])->delete();
+            toastr()->success('Page deleted successfully!');
+            return redirect()->route('admin.page.list');
+        }
+    }
 }
