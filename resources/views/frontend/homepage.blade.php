@@ -130,12 +130,12 @@
                             <img src="{{ asset('assets/frontend/images/icon/home-1.png') }}" alt="Icon">
                         </div>
                         <p>About Our Company</p>
-                        <div class="title">Creating lasting impressions through <br><span>interior design.</span></div>
+                        <div class="title">TRANSFORM YOUR SPACE WITH HIGH-QUALITY <br><span>INTERIOR PRODUCTS.</span></div>
                     </div>
                     <div class="button text-center">
                         <a class="btn-one" href="{{ route('site.about') }}">About Our Company<span
                                 class="flaticon-next"></span></a>
-                        <a class="btn-one black" href="{{ route('site.category') }}">See Our Categories<span
+                        <a class="btn-one black" href="{{ route('site.category') }}">Product Categories<span
                                 class="flaticon-next"></span></a>
                     </div>
                 </div>
@@ -266,11 +266,10 @@
                 <div class="col-xl-12">
                     <div class="inner-content">
                         <div class="title">
-                            <h1>Creating lasting impressions through<br> <span>interior design.</span></h1>
+                            <h1>TRANSFORM YOUR SPACE WITH HIGH-QUALITY <br><span>INTERIOR PRODUCTS.</span></h1>
                         </div>
                         <div class="button">
-                            <a class="btn-one call-us" href="tel:+971543436980"><i class="icon-music"></i>+971 54 343
-                                6980</a>
+                            <a class="btn-one call-us" href="tel:{{ get_setting('admin_phone') }}"><i class="icon-music"></i>{{ get_setting('admin_phone') }}</a>
                             <a class="btn-one" href="{{ route('site.contact') }}">Contact us<span
                                     class="flaticon-next"></span></a>
                         </div>
@@ -286,10 +285,9 @@
         <div class="container">
             <div class="sec-title with-text max-width text-center wow fadeInDown" data-wow-delay="100ms"
                 data-wow-duration="1200ms">
-                <p>What We Do</p>
-                <div class="title">Some Special <span>Products</span></div>
-                <p class="bottom-text">We are an Interior Designer, Who believe in excellence, quality and honesty,
-                    yes we design beautiful home interiors.</p>
+                <p>FAST MOVING</p>
+                <div class="title">HIGHLIGHTED <span>PRODUCTS</span></div>
+                <p class="bottom-text">Featured below are a carefully curated selection of our premium interior products.</p>
             </div>
             <div class="row">
                 @foreach ($products as $key => $product)
@@ -365,12 +363,12 @@
                         <div class="sec-title">
                             <div class="icon"><img src="{{ asset('assets/frontend/images/icon/home-1.png') }}"
                                     alt="Awesome Logo"></div>
-                            <div class="title">Why People <br>Choose <span>US</span></div>
+                            <div class="title">Why People <br>Choose <span>RARE Decor</span></div>
                         </div>
                         <ul>
-                            <li>Well Considered Design</li>
-                            <li>We Create For You</li>
-                            <li>Leave The Details To Us</li>
+                            <li>Latest products designs</li>
+                            <li>We create the way you love</li>
+                            <li>Leave the details to us</li>
                         </ul>
                         <div class="button">
                             <a class="btn-one" href="{{ route('site.contact') }}">Make an Appointment<span
@@ -385,7 +383,7 @@
                             </div>
                             <div class="text-holder">
                                 <h3>Experienced Team</h3>
-                                <p>Righteous indignations working beguileds all demoralized that blinded our works.
+                                <p>Our team consists of experienced planners and workers who can get the work done right.
                                 </p>
                             </div>
                         </div>
@@ -396,8 +394,8 @@
                                 <span class="icon-guarantee-certificate1"></span>
                             </div>
                             <div class="text-holder">
-                                <h3>Guaranteed Works</h3>
-                                <p>Have to be repudiated annoyances accepted The wise man therefore always holds.
+                                <h3>Guaranteed Quality</h3>
+                                <p>Our priority is to deliver premium-quality products and services that will leave our customers with peace of mind.
                                 </p>
                             </div>
                         </div>
@@ -409,7 +407,7 @@
                             </div>
                             <div class="text-holder">
                                 <h3>Free Consultation</h3>
-                                <p>Rejects pleasures to secure other pleasures, endures pains to avoid worse.</p>
+                                <p>We offer free consultations to ensure that our customer’s needs and requirements are thoroughly understood.</p>
                             </div>
                         </div>
                         <!--End Single Box-->
@@ -419,8 +417,8 @@
                                 <span class="icon-wallet1"></span>
                             </div>
                             <div class="text-holder">
-                                <h3>Reasonable price</h3>
-                                <p>Our power of choice is untrammelled & when nothing prevents our being able.</p>
+                                <h3>Reasonable Pricing</h3>
+                                <p>Tight budget or premium items, our pricing ensures that everyone can access quality products without breaking the bank.</p>
                             </div>
                         </div>
                         <!--End Single Box-->
@@ -591,7 +589,7 @@
         <div class="container">
             <div class="sec-title">
                 <p>To Do good design</p>
-                <div class="title">Our Working <span>process</span></div>
+                <div class="title">How we <span>work</span></div>
             </div>
             <div class="row">
                 <div class="col-xl-12 col-lg-12">
@@ -608,8 +606,7 @@
                             </div>
                             <div class="inner">
                                 <h3>Idea & Design</h3>
-                                <p>Dedignation and dislike men who are beguileds & demoralized by the charms pleasue
-                                    certain circumstances.</p>
+                                <p>We talk with our customers to understand their requirements and create ideas and designs accordingly.</p>
                             </div>
                         </div>
                         <!--End Single Working Process-->
@@ -624,9 +621,8 @@
                                 </div>
                             </div>
                             <div class="inner">
-                                <h3>Specification</h3>
-                                <p>Owing to the claims of duty or business will frequently occur that pleasures have
-                                    to be repudiated and annoyances.</p>
+                                <h3>Costing & Budget</h3>
+                                <p>We offer transparent pricing and work closely with our clients to develop a realistic budget that meets their needs.</p>
                             </div>
                         </div>
                         <!--End Single Working Process-->
@@ -641,9 +637,8 @@
                                 </div>
                             </div>
                             <div class="inner">
-                                <h3>Execution</h3>
-                                <p>Same as saying through shrinking from toil and pain. These cases are perfectly
-                                    simple and easy to distinguish.</p>
+                                <h3>Execution & Delivery</h3>
+                                <p>Our network of trusted contractors and workers enables us to deliver results that meet our client’s specifications.</p>
                             </div>
                         </div>
                         <!--End Single Working Process-->
