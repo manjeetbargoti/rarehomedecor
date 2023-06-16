@@ -6,7 +6,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Welcome to {{ env('APP_NAME') }}</title>
+    <title>Welcome to {{ config('app.name') }}</title>
 
     <!-- responsive meta -->
     <meta name="viewport" content="width=device-width, initial-scale=1">

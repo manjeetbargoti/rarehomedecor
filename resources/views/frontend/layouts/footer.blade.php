@@ -127,7 +127,7 @@
         <div class="row">
             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
                 <div class="copyright-text text-center">
-                    <p>Copyright &copy; 2023 {{ env('APP_NAME') }}. All rights reserved.</p>
+                    <p>Copyright &copy; 2023 {{ config('app.name') }}. All rights reserved.</p>
                 </div>
             </div>
         </div>
