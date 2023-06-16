@@ -46,7 +46,7 @@
                                                     <span class="icon-global"></span>
                                                 </div>
                                                 <div class="text">
-                                                    <h3>Visit Our Office</h3>
+                                                    <h3></h3>
                                                     <p>{{ get_setting('office_address') }}</p>
                                                 </div>
                                             </div>
@@ -56,7 +56,7 @@
                                                     <span class="icon-global"></span>
                                                 </div>
                                                 <div class="text">
-                                                    <h3>Visit Our Office</h3>
+                                                    <h3></h3>
                                                     <p>{{ get_setting('office_address') }}</p>
                                                 </div>
                                             </div>
@@ -83,7 +83,7 @@
                                                 <div class="col-xl-6">
                                                     <div class="single-box">
                                                         <input type="email" name="email" value=""
-                                                            placeholder="Email" required="">
+                                                            placeholder="Email">
                                                     </div>
                                                 </div>
                                             </div>

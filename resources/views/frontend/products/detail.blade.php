@@ -49,7 +49,7 @@
                                         <div class="form-group">
                                             <label for="emailAddress">Email Address</label>
                                             <input type="email" id="emailAddress" class="form-control" name="email"
-                                                placeholder="Enter your email..." required>
+                                                placeholder="Enter your email...">
                                         </div>
                                         <div class="form-group">
                                             <label for="phoneNumber">Phone Number</label>
